@@ -27,4 +27,4 @@ class FactoryFactory extends require("./base")
 
 factory = new FactoryFactory()
 
-module.exports = (data) -> factory.create data
+module.exports = factory

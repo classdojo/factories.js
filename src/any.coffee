@@ -6,7 +6,7 @@ class AnyFactory extends require("./base")
   ###
 
   constructor: (factories = []) ->
-    @factories = factories.map factoryFactory.create
+    @factories = factories.map factoryFactory
 
   ###
   ###

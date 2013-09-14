@@ -1,0 +1,161 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@1.2.18
+3 info using node@v0.10.5
+4 verbose publish [ '.' ]
+5 verbose read json /Users/craig/Developer/Public/factories.js/package.json
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '.',
+8 verbose parsed url   path: '.',
+8 verbose parsed url   href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . /Users/craig/.npm/3a52ce78-.lock
+11 verbose read json package.json
+12 verbose tar pack [ '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-11210/1378508279245-0.1541921948082745/tmp.tgz',
+12 verbose tar pack   '.' ]
+13 verbose tarball /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-11210/1378508279245-0.1541921948082745/tmp.tgz
+14 verbose folder .
+15 info prepublish factories@0.0.2
+16 silly lockFile 3a52ce78- .
+17 verbose lock . /Users/craig/.npm/3a52ce78-.lock
+18 silly lockFile 6eeeed25-79245-0-1541921948082745-tmp-tgz /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-11210/1378508279245-0.1541921948082745/tmp.tgz
+19 verbose lock /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-11210/1378508279245-0.1541921948082745/tmp.tgz /Users/craig/.npm/6eeeed25-79245-0-1541921948082745-tmp-tgz.lock
+20 silly lockFile 3a52ce78- .
+21 silly lockFile 3a52ce78- .
+22 silly lockFile 6eeeed25-79245-0-1541921948082745-tmp-tgz /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-11210/1378508279245-0.1541921948082745/tmp.tgz
+23 silly lockFile 6eeeed25-79245-0-1541921948082745-tmp-tgz /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-11210/1378508279245-0.1541921948082745/tmp.tgz
+24 verbose tar unpack /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-11210/1378508279245-0.1541921948082745/tmp.tgz
+25 silly lockFile 0c642236-79245-0-1541921948082745-package /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-11210/1378508279245-0.1541921948082745/package
+26 verbose lock /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-11210/1378508279245-0.1541921948082745/package /Users/craig/.npm/0c642236-79245-0-1541921948082745-package.lock
+27 silly lockFile 6eeeed25-79245-0-1541921948082745-tmp-tgz /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-11210/1378508279245-0.1541921948082745/tmp.tgz
+28 verbose lock /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-11210/1378508279245-0.1541921948082745/tmp.tgz /Users/craig/.npm/6eeeed25-79245-0-1541921948082745-tmp-tgz.lock
+29 silly gunzTarPerm modes [ '755', '644' ]
+30 silly gunzTarPerm extractEntry package.json
+31 silly gunzTarPerm extractEntry README.md
+32 silly gunzTarPerm extractEntry lib/any.js
+33 silly gunzTarPerm extractEntry lib/base.js
+34 silly gunzTarPerm extractEntry lib/class.js
+35 silly gunzTarPerm extractEntry lib/factory.js
+36 silly gunzTarPerm extractEntry lib/fn.js
+37 silly gunzTarPerm extractEntry lib/group.js
+38 silly gunzTarPerm extractEntry lib/index.js
+39 silly gunzTarPerm extractEntry lib/index.coffee
+40 silly gunzTarPerm extractEntry makefile
+41 silly gunzTarPerm extractEntry src/any.coffee
+42 silly gunzTarPerm extractEntry src/base.coffee
+43 silly gunzTarPerm extractEntry src/class.coffee
+44 silly gunzTarPerm extractEntry src/factory.coffee
+45 silly gunzTarPerm extractEntry src/fn.coffee
+46 silly gunzTarPerm extractEntry src/group.coffee
+47 silly gunzTarPerm extractEntry src/index.coffee
+48 verbose read json /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-11210/1378508279245-0.1541921948082745/package/package.json
+49 silly lockFile 0c642236-79245-0-1541921948082745-package /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-11210/1378508279245-0.1541921948082745/package
+50 silly lockFile 0c642236-79245-0-1541921948082745-package /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-11210/1378508279245-0.1541921948082745/package
+51 silly lockFile 6eeeed25-79245-0-1541921948082745-tmp-tgz /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-11210/1378508279245-0.1541921948082745/tmp.tgz
+52 silly lockFile 6eeeed25-79245-0-1541921948082745-tmp-tgz /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-11210/1378508279245-0.1541921948082745/tmp.tgz
+53 verbose from cache /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-11210/1378508279245-0.1541921948082745/package/package.json
+54 verbose tar pack [ '/Users/craig/.npm/factories/0.0.2/package.tgz',
+54 verbose tar pack   '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-11210/1378508279245-0.1541921948082745/package' ]
+55 verbose tarball /Users/craig/.npm/factories/0.0.2/package.tgz
+56 verbose folder /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-11210/1378508279245-0.1541921948082745/package
+57 silly lockFile 0c642236-79245-0-1541921948082745-package /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-11210/1378508279245-0.1541921948082745/package
+58 verbose lock /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-11210/1378508279245-0.1541921948082745/package /Users/craig/.npm/0c642236-79245-0-1541921948082745-package.lock
+59 silly lockFile 9689e57b--npm-factories-0-0-2-package-tgz /Users/craig/.npm/factories/0.0.2/package.tgz
+60 verbose lock /Users/craig/.npm/factories/0.0.2/package.tgz /Users/craig/.npm/9689e57b--npm-factories-0-0-2-package-tgz.lock
+61 silly lockFile 0c642236-79245-0-1541921948082745-package /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-11210/1378508279245-0.1541921948082745/package
+62 silly lockFile 0c642236-79245-0-1541921948082745-package /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-11210/1378508279245-0.1541921948082745/package
+63 silly lockFile 9689e57b--npm-factories-0-0-2-package-tgz /Users/craig/.npm/factories/0.0.2/package.tgz
+64 silly lockFile 9689e57b--npm-factories-0-0-2-package-tgz /Users/craig/.npm/factories/0.0.2/package.tgz
+65 silly lockFile 4cc593f1-raig-npm-factories-0-0-2-package /Users/craig/.npm/factories/0.0.2/package
+66 verbose lock /Users/craig/.npm/factories/0.0.2/package /Users/craig/.npm/4cc593f1-raig-npm-factories-0-0-2-package.lock
+67 silly lockFile 4cc593f1-raig-npm-factories-0-0-2-package /Users/craig/.npm/factories/0.0.2/package
+68 silly lockFile 4cc593f1-raig-npm-factories-0-0-2-package /Users/craig/.npm/factories/0.0.2/package
+69 verbose tar unpack /Users/craig/.npm/factories/0.0.2/package.tgz
+70 silly lockFile 4cc593f1-raig-npm-factories-0-0-2-package /Users/craig/.npm/factories/0.0.2/package
+71 verbose lock /Users/craig/.npm/factories/0.0.2/package /Users/craig/.npm/4cc593f1-raig-npm-factories-0-0-2-package.lock
+72 silly lockFile 9689e57b--npm-factories-0-0-2-package-tgz /Users/craig/.npm/factories/0.0.2/package.tgz
+73 verbose lock /Users/craig/.npm/factories/0.0.2/package.tgz /Users/craig/.npm/9689e57b--npm-factories-0-0-2-package-tgz.lock
+74 silly gunzTarPerm modes [ '755', '644' ]
+75 silly gunzTarPerm extractEntry package.json
+76 silly gunzTarPerm extractEntry README.md
+77 silly gunzTarPerm extractEntry lib/any.js
+78 silly gunzTarPerm extractEntry lib/base.js
+79 silly gunzTarPerm extractEntry lib/class.js
+80 silly gunzTarPerm extractEntry lib/factory.js
+81 silly gunzTarPerm extractEntry lib/fn.js
+82 silly gunzTarPerm extractEntry lib/group.js
+83 silly gunzTarPerm extractEntry lib/index.js
+84 silly gunzTarPerm extractEntry lib/index.coffee
+85 silly gunzTarPerm extractEntry makefile
+86 silly gunzTarPerm extractEntry src/any.coffee
+87 silly gunzTarPerm extractEntry src/base.coffee
+88 silly gunzTarPerm extractEntry src/class.coffee
+89 silly gunzTarPerm extractEntry src/factory.coffee
+90 silly gunzTarPerm extractEntry src/fn.coffee
+91 silly gunzTarPerm extractEntry src/group.coffee
+92 silly gunzTarPerm extractEntry src/index.coffee
+93 verbose read json /Users/craig/.npm/factories/0.0.2/package/package.json
+94 silly lockFile 4cc593f1-raig-npm-factories-0-0-2-package /Users/craig/.npm/factories/0.0.2/package
+95 silly lockFile 4cc593f1-raig-npm-factories-0-0-2-package /Users/craig/.npm/factories/0.0.2/package
+96 silly lockFile 9689e57b--npm-factories-0-0-2-package-tgz /Users/craig/.npm/factories/0.0.2/package.tgz
+97 silly lockFile 9689e57b--npm-factories-0-0-2-package-tgz /Users/craig/.npm/factories/0.0.2/package.tgz
+98 silly shasum updated bytes 2792
+99 info shasum 6c0163560cac3212d609fa046badc78aebdd49a2
+99 info shasum /Users/craig/.npm/factories/0.0.2/package.tgz
+100 verbose from cache /Users/craig/.npm/factories/0.0.2/package/package.json
+101 verbose chmod /Users/craig/.npm/factories/0.0.2/package.tgz 644
+102 verbose chown /Users/craig/.npm/factories/0.0.2/package.tgz [ 501, 20 ]
+103 silly lockFile 3a52ce78- .
+104 silly publish { name: 'factories',
+104 silly publish   version: '0.0.2',
+104 silly publish   description: 'factories.js ============',
+104 silly publish   main: './lib/index.js',
+104 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+104 silly publish   repository:
+104 silly publish    { type: 'git',
+104 silly publish      url: 'https://github.com/classdojo/factories.js.git' },
+104 silly publish   author: '',
+104 silly publish   license: 'BSD',
+104 silly publish   readmeFilename: 'README.md',
+104 silly publish   gitHead: '7035e1635e49464a5466d24e82a42645208955bc',
+104 silly publish   readme: '```coffeescript\nfactories = require("./src")\n\nclassFactory = factories.class SomeClass\nsomeClassInstance = classFactory.create data\n\nfnFactory    = factories.fn (data) -> data\nfnInstance   = fnInstance.create data\n\n# resolve the factory depending on the type\nfactory      = factories.factory SomeClass\nsomeClassInstance = factory.create data\n```',
+104 silly publish   _id: 'factories@0.0.2',
+104 silly publish   dist: { shasum: '6c0163560cac3212d609fa046badc78aebdd49a2' },
+104 silly publish   _from: '.' }
+105 verbose url raw factories
+106 verbose url resolving [ 'http://registry.npmjs.org/', './factories' ]
+107 verbose url resolved http://registry.npmjs.org/factories
+108 info trying registry request attempt 1 at 15:58:10
+109 http PUT http://registry.npmjs.org/factories
+110 http 409 http://registry.npmjs.org/factories
+111 verbose url raw factories
+112 verbose url resolving [ 'http://registry.npmjs.org/', './factories' ]
+113 verbose url resolved http://registry.npmjs.org/factories
+114 info trying registry request attempt 1 at 15:58:10
+115 http GET http://registry.npmjs.org/factories
+116 http 200 http://registry.npmjs.org/factories
+117 error publish fail Cannot publish over existing version.
+117 error publish fail Update the 'version' field in package.json and try again.
+117 error publish fail
+117 error publish fail If the previous version was published in error, see:
+117 error publish fail     npm help unpublish
+117 error publish fail
+117 error publish fail To automatically increment version numbers, see:
+117 error publish fail     npm help version
+118 error System Darwin 12.4.0
+119 error command "node" "/usr/local/bin/npm" "publish"
+120 error cwd /Users/craig/Developer/Public/factories.js
+121 error node -v v0.10.5
+122 error npm -v 1.2.18
+123 error code EPUBLISHCONFLICT
+124 verbose exit [ 1, true ]
