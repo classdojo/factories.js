@@ -14,13 +14,13 @@ class FactoryFactory extends require("./base")
 
   create: (data) ->
 
-    if (t = type(data)) is "function"
+    if data.create and data.test
+      return data
+    else if (t = type(data)) is "function"
       if data.prototype.constructor
-        if data.create and data.test  
-          return data
-        else
-          return new ClassFactory data
-      return new FnFactory data
+        return new ClassFactory data
+      else
+        return new FnFactory data
 
     return data
 

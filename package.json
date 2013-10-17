@@ -1,6 +1,6 @@
 {
   "name": "factories",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "factories.js ============",
   "main": "./lib/index.js",
   "scripts": {
