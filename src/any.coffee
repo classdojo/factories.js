@@ -16,6 +16,12 @@ class AnyFactory extends require("./base")
   ###
   ###
 
+  push: (factory) ->
+    @factories.push factoryFactory.create factory
+
+  ###
+  ###
+
   create: (data) -> @_getFactory(data)?.create data
 
   ###
