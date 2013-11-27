@@ -13,5 +13,8 @@
   "author": "",
   "license": "BSD",
   "readmeFilename": "README.md",
-  "gitHead": "7035e1635e49464a5466d24e82a42645208955bc"
+  "gitHead": "7035e1635e49464a5466d24e82a42645208955bc",
+  "dependencies": {
+    "type-component": "0.0.1"
+  }
 }
