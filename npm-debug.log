@@ -1,0 +1,158 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@1.3.14
+3 info using node@v0.10.22
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /Users/craig/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/var/folders/33/qyt5ls6j7bs37v5c49lfx6km0000gq/T/npm-36540-KoogUcaE/1385520812905-0.8490452046971768/tmp.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball /var/folders/33/qyt5ls6j7bs37v5c49lfx6km0000gq/T/npm-36540-KoogUcaE/1385520812905-0.8490452046971768/tmp.tgz
+12 verbose folder .
+13 info prepublish factories@0.0.6
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. /Users/craig/.npm/1f1177db-tar.lock
+16 silly lockFile 0fc1cc5a-12905-0-8490452046971768-tmp-tgz tar:///var/folders/33/qyt5ls6j7bs37v5c49lfx6km0000gq/T/npm-36540-KoogUcaE/1385520812905-0.8490452046971768/tmp.tgz
+17 verbose lock tar:///var/folders/33/qyt5ls6j7bs37v5c49lfx6km0000gq/T/npm-36540-KoogUcaE/1385520812905-0.8490452046971768/tmp.tgz /Users/craig/.npm/0fc1cc5a-12905-0-8490452046971768-tmp-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 0fc1cc5a-12905-0-8490452046971768-tmp-tgz tar:///var/folders/33/qyt5ls6j7bs37v5c49lfx6km0000gq/T/npm-36540-KoogUcaE/1385520812905-0.8490452046971768/tmp.tgz
+21 silly lockFile 0fc1cc5a-12905-0-8490452046971768-tmp-tgz tar:///var/folders/33/qyt5ls6j7bs37v5c49lfx6km0000gq/T/npm-36540-KoogUcaE/1385520812905-0.8490452046971768/tmp.tgz
+22 verbose tar unpack /var/folders/33/qyt5ls6j7bs37v5c49lfx6km0000gq/T/npm-36540-KoogUcaE/1385520812905-0.8490452046971768/tmp.tgz
+23 silly lockFile 6cf17c8a-12905-0-8490452046971768-package tar:///var/folders/33/qyt5ls6j7bs37v5c49lfx6km0000gq/T/npm-36540-KoogUcaE/1385520812905-0.8490452046971768/package
+24 verbose lock tar:///var/folders/33/qyt5ls6j7bs37v5c49lfx6km0000gq/T/npm-36540-KoogUcaE/1385520812905-0.8490452046971768/package /Users/craig/.npm/6cf17c8a-12905-0-8490452046971768-package.lock
+25 silly lockFile 0fc1cc5a-12905-0-8490452046971768-tmp-tgz tar:///var/folders/33/qyt5ls6j7bs37v5c49lfx6km0000gq/T/npm-36540-KoogUcaE/1385520812905-0.8490452046971768/tmp.tgz
+26 verbose lock tar:///var/folders/33/qyt5ls6j7bs37v5c49lfx6km0000gq/T/npm-36540-KoogUcaE/1385520812905-0.8490452046971768/tmp.tgz /Users/craig/.npm/0fc1cc5a-12905-0-8490452046971768-tmp-tgz.lock
+27 silly gunzTarPerm modes [ '755', '644' ]
+28 silly gunzTarPerm extractEntry package.json
+29 silly gunzTarPerm extractEntry .npmignore
+30 silly gunzTarPerm extractEntry README.md
+31 silly gunzTarPerm extractEntry lib/any.js
+32 silly gunzTarPerm extractEntry lib/base.js
+33 silly gunzTarPerm extractEntry lib/class.js
+34 silly gunzTarPerm extractEntry lib/factory.js
+35 silly gunzTarPerm extractEntry lib/fn.js
+36 silly gunzTarPerm extractEntry lib/group.js
+37 silly gunzTarPerm extractEntry lib/index.js
+38 silly gunzTarPerm extractEntry lib/index.coffee
+39 silly gunzTarPerm extractEntry makefile
+40 silly gunzTarPerm extractEntry src/any.coffee
+41 silly gunzTarPerm extractEntry src/base.coffee
+42 silly gunzTarPerm extractEntry src/class.coffee
+43 silly gunzTarPerm extractEntry src/factory.coffee
+44 silly gunzTarPerm extractEntry src/fn.coffee
+45 silly gunzTarPerm extractEntry src/group.coffee
+46 silly gunzTarPerm extractEntry src/index.coffee
+47 silly lockFile 6cf17c8a-12905-0-8490452046971768-package tar:///var/folders/33/qyt5ls6j7bs37v5c49lfx6km0000gq/T/npm-36540-KoogUcaE/1385520812905-0.8490452046971768/package
+48 silly lockFile 6cf17c8a-12905-0-8490452046971768-package tar:///var/folders/33/qyt5ls6j7bs37v5c49lfx6km0000gq/T/npm-36540-KoogUcaE/1385520812905-0.8490452046971768/package
+49 silly lockFile 0fc1cc5a-12905-0-8490452046971768-tmp-tgz tar:///var/folders/33/qyt5ls6j7bs37v5c49lfx6km0000gq/T/npm-36540-KoogUcaE/1385520812905-0.8490452046971768/tmp.tgz
+50 silly lockFile 0fc1cc5a-12905-0-8490452046971768-tmp-tgz tar:///var/folders/33/qyt5ls6j7bs37v5c49lfx6km0000gq/T/npm-36540-KoogUcaE/1385520812905-0.8490452046971768/tmp.tgz
+51 verbose tar pack [ '/Users/craig/.npm/factories/0.0.6/package.tgz',
+51 verbose tar pack   '/var/folders/33/qyt5ls6j7bs37v5c49lfx6km0000gq/T/npm-36540-KoogUcaE/1385520812905-0.8490452046971768/package' ]
+52 verbose tarball /Users/craig/.npm/factories/0.0.6/package.tgz
+53 verbose folder /var/folders/33/qyt5ls6j7bs37v5c49lfx6km0000gq/T/npm-36540-KoogUcaE/1385520812905-0.8490452046971768/package
+54 silly lockFile 6cf17c8a-12905-0-8490452046971768-package tar:///var/folders/33/qyt5ls6j7bs37v5c49lfx6km0000gq/T/npm-36540-KoogUcaE/1385520812905-0.8490452046971768/package
+55 verbose lock tar:///var/folders/33/qyt5ls6j7bs37v5c49lfx6km0000gq/T/npm-36540-KoogUcaE/1385520812905-0.8490452046971768/package /Users/craig/.npm/6cf17c8a-12905-0-8490452046971768-package.lock
+56 silly lockFile 510f8345--npm-factories-0-0-6-package-tgz tar:///Users/craig/.npm/factories/0.0.6/package.tgz
+57 verbose lock tar:///Users/craig/.npm/factories/0.0.6/package.tgz /Users/craig/.npm/510f8345--npm-factories-0-0-6-package-tgz.lock
+58 silly lockFile 6cf17c8a-12905-0-8490452046971768-package tar:///var/folders/33/qyt5ls6j7bs37v5c49lfx6km0000gq/T/npm-36540-KoogUcaE/1385520812905-0.8490452046971768/package
+59 silly lockFile 6cf17c8a-12905-0-8490452046971768-package tar:///var/folders/33/qyt5ls6j7bs37v5c49lfx6km0000gq/T/npm-36540-KoogUcaE/1385520812905-0.8490452046971768/package
+60 silly lockFile 510f8345--npm-factories-0-0-6-package-tgz tar:///Users/craig/.npm/factories/0.0.6/package.tgz
+61 silly lockFile 510f8345--npm-factories-0-0-6-package-tgz tar:///Users/craig/.npm/factories/0.0.6/package.tgz
+62 silly lockFile 84297294-raig-npm-factories-0-0-6-package /Users/craig/.npm/factories/0.0.6/package
+63 verbose lock /Users/craig/.npm/factories/0.0.6/package /Users/craig/.npm/84297294-raig-npm-factories-0-0-6-package.lock
+64 silly lockFile 84297294-raig-npm-factories-0-0-6-package /Users/craig/.npm/factories/0.0.6/package
+65 silly lockFile 84297294-raig-npm-factories-0-0-6-package /Users/craig/.npm/factories/0.0.6/package
+66 verbose tar unpack /Users/craig/.npm/factories/0.0.6/package.tgz
+67 silly lockFile c2058df6-raig-npm-factories-0-0-6-package tar:///Users/craig/.npm/factories/0.0.6/package
+68 verbose lock tar:///Users/craig/.npm/factories/0.0.6/package /Users/craig/.npm/c2058df6-raig-npm-factories-0-0-6-package.lock
+69 silly lockFile 510f8345--npm-factories-0-0-6-package-tgz tar:///Users/craig/.npm/factories/0.0.6/package.tgz
+70 verbose lock tar:///Users/craig/.npm/factories/0.0.6/package.tgz /Users/craig/.npm/510f8345--npm-factories-0-0-6-package-tgz.lock
+71 silly gunzTarPerm modes [ '755', '644' ]
+72 silly gunzTarPerm extractEntry package.json
+73 silly gunzTarPerm extractEntry .npmignore
+74 silly gunzTarPerm extractEntry README.md
+75 silly gunzTarPerm extractEntry lib/any.js
+76 silly gunzTarPerm extractEntry lib/base.js
+77 silly gunzTarPerm extractEntry lib/class.js
+78 silly gunzTarPerm extractEntry lib/factory.js
+79 silly gunzTarPerm extractEntry lib/fn.js
+80 silly gunzTarPerm extractEntry lib/group.js
+81 silly gunzTarPerm extractEntry lib/index.js
+82 silly gunzTarPerm extractEntry lib/index.coffee
+83 silly gunzTarPerm extractEntry makefile
+84 silly gunzTarPerm extractEntry src/any.coffee
+85 silly gunzTarPerm extractEntry src/base.coffee
+86 silly gunzTarPerm extractEntry src/class.coffee
+87 silly gunzTarPerm extractEntry src/factory.coffee
+88 silly gunzTarPerm extractEntry src/fn.coffee
+89 silly gunzTarPerm extractEntry src/group.coffee
+90 silly gunzTarPerm extractEntry src/index.coffee
+91 silly lockFile c2058df6-raig-npm-factories-0-0-6-package tar:///Users/craig/.npm/factories/0.0.6/package
+92 silly lockFile c2058df6-raig-npm-factories-0-0-6-package tar:///Users/craig/.npm/factories/0.0.6/package
+93 silly lockFile 510f8345--npm-factories-0-0-6-package-tgz tar:///Users/craig/.npm/factories/0.0.6/package.tgz
+94 silly lockFile 510f8345--npm-factories-0-0-6-package-tgz tar:///Users/craig/.npm/factories/0.0.6/package.tgz
+95 verbose chmod /Users/craig/.npm/factories/0.0.6/package.tgz 644
+96 verbose chown /Users/craig/.npm/factories/0.0.6/package.tgz [ 503, 20 ]
+97 silly lockFile 3a52ce78- .
+98 silly lockFile 3a52ce78- .
+99 silly publish { name: 'factories',
+99 silly publish   version: '0.0.6',
+99 silly publish   description: 'factories.js ============',
+99 silly publish   main: './lib/index.js',
+99 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+99 silly publish   repository:
+99 silly publish    { type: 'git',
+99 silly publish      url: 'https://github.com/classdojo/factories.js.git' },
+99 silly publish   author: '',
+99 silly publish   license: 'BSD',
+99 silly publish   readmeFilename: 'README.md',
+99 silly publish   gitHead: '7035e1635e49464a5466d24e82a42645208955bc',
+99 silly publish   dependencies: { 'type-component': '0.0.1' },
+99 silly publish   readme: '```coffeescript\nfactories = require("./src")\n\nclassFactory = factories.class SomeClass\nsomeClassInstance = classFactory.create data\n\nfnFactory    = factories.fn (data) -> data\nfnInstance   = fnInstance.create data\n\n# resolve the factory depending on the type\nfactory      = factories.factory SomeClass\nsomeClassInstance = factory.create data\n```',
+99 silly publish   bugs: { url: 'https://github.com/classdojo/factories.js/issues' },
+99 silly publish   homepage: 'https://github.com/classdojo/factories.js',
+99 silly publish   _id: 'factories@0.0.6',
+99 silly publish   dist: { shasum: 'c5a80f2bbd92501190304ac70dbde08db2820e58' },
+99 silly publish   _from: '.' }
+100 verbose url raw factories
+101 verbose url resolving [ 'https://registry.npmjs.org/', './factories' ]
+102 verbose url resolved https://registry.npmjs.org/factories
+103 info trying registry request attempt 1 at 18:53:33
+104 http PUT https://registry.npmjs.org/factories
+105 http 409 https://registry.npmjs.org/factories
+106 verbose url raw factories
+107 verbose url resolving [ 'https://registry.npmjs.org/', './factories' ]
+108 verbose url resolved https://registry.npmjs.org/factories
+109 info trying registry request attempt 1 at 18:53:34
+110 http GET https://registry.npmjs.org/factories
+111 http 200 https://registry.npmjs.org/factories
+112 error publish fail Cannot publish over existing version.
+112 error publish fail Update the 'version' field in package.json and try again.
+112 error publish fail
+112 error publish fail If the previous version was published in error, see:
+112 error publish fail     npm help unpublish
+112 error publish fail
+112 error publish fail To automatically increment version numbers, see:
+112 error publish fail     npm help version
+113 error System Darwin 13.0.0
+114 error command "node" "/usr/local/bin/npm" "publish"
+115 error cwd /Users/craig/Developer/jobs/classdojo/factories.js
+116 error node -v v0.10.22
+117 error npm -v 1.3.14
+118 error code EPUBLISHCONFLICT
+119 verbose exit [ 1, true ]
