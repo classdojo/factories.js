@@ -15,6 +15,11 @@
   "readmeFilename": "README.md",
   "gitHead": "7035e1635e49464a5466d24e82a42645208955bc",
   "dependencies": {
-    "type-component": "0.0.1"
+    "type-component": "0.0.1",
+    "protoclass": "0.0.2"
+  },
+  "devDependencies": {
+    "expect.js": "~0.2.0",
+    "mocha": "~1.14.0"
   }
 }
